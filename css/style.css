@@ -15,3 +15,21 @@ body{
     max-width: 1080px;
     margin: 0 auto;
 }
+
+/* Header */
+.header-controls{
+    background-color: #000;
+    height: 50px;
+}
+
+/* Main */
+main{
+    height: calc(100vh - 150px) ;
+    overflow-y: auto;
+}
+
+/* Footer */
+.footer-controls{
+    background-color: #222;
+    height: 100px;
+}
