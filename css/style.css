@@ -10,26 +10,51 @@ body{
     font-family: sans-serif;
 }
 
+header{
+    background-color: #000;
+    height: 80px;
+}
+
+main{
+    height: calc(100vh - 180px) ;
+    overflow-y: auto;
+    background-color: #444;
+}
+
+footer{
+    background-color: #222;
+    height: 100px;
+}
+
 /* Utils */
 .container{
-    max-width: 1080px;
+    max-width: 1200px;
     margin: 0 auto;
 }
 
 /* Header */
-.header-controls{
-    background-color: #000;
-    height: 50px;
+.header-buttons{
+    text-align: end;
+    line-height: 80px;
+    padding-right: 10px;
+}
+
+.header-buttons > button{
+    color: #fff;
+    background-color: #4a4a4a;
+    padding: 10px;
+    font-size: 20px;
+    text-transform: capitalize;
+    border: none;
+    border-radius: 15px 15px 15px 15px;
+    cursor: pointer;
+}
+
+.header-buttons .fa-table-cells{
+    margin-right: 5px;
 }
 
 /* Main */
-main{
-    height: calc(100vh - 150px) ;
-    overflow-y: auto;
-}
+
 
 /* Footer */
-.footer-controls{
-    background-color: #222;
-    height: 100px;
-}
